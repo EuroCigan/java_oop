@@ -1,2 +1,2 @@
-public class Interface {
+public interface Interface {
 }
