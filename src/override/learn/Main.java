@@ -10,27 +10,25 @@ public class Main implements Greeting {
 
     }
     public static void main(String[] args) {
-        Station station_1 = new Station();
+        Station_1 station_1 = new Station_1();
         station_1.print();
 
         Main printDirection = new Main();
         printDirection.printDirection();
 
-        Station station_2 = new Station_2();
+        Station_1 station_2 = new Station_2();
         station_2.print();
 
         printDirection.printDirection();
 
-        Station station_3 = new Station_3();
+        Station_1 station_3 = new Station_3();
         station_3.print();
 
         printDirection.printDirection();
 
-        Station station_return = new Station();
-        station_return.print();
+        station_1.print();
 
-        Main printHome = new Main();
-        printHome.printHome();
+        printDirection.printHome();
 
     }
 }
