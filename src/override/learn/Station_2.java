@@ -1,8 +1,8 @@
 package override.learn;
 
-public class Station_2 extends Station_1 {
+public class Station_2 extends Station {
     @Override
     public void print() {
-        System.out.println("Paris");
+        System.out.println("Congratulations, Paris");
     }
 }
