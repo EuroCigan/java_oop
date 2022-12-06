@@ -12,8 +12,6 @@ public class Main {
         station.move();
 
         station = new Station_1();
-        station.move();
-
-        station.printCongratulations();
+        station.lastStation();
     }
 }
